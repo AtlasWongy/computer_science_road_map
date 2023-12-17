@@ -18,11 +18,12 @@ namespace app
             rootNode.LeftNode.RightNode = new Tree.Node(5);
 
             rootNode.RightNode.LeftNode = new Tree.Node(10);
-            rootNode.RightNode.RightNode = new Tree.Node(15);
+            // rootNode.RightNode.RightNode = new Tree.Node(15);
 
             var binaryTree = new BinaryTree(rootNode);
-            var fullBinaryTree = new FullBinaryTree(binaryTree);
-            Console.WriteLine(fullBinaryTree.isFBT(binaryTree.rootNode));
+            var completeBinaryTree = new CompleteBinaryTree(binaryTree);
+            
+            Console.WriteLine(completeBinaryTree.IsCbt());
 
         }
     }
