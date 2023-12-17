@@ -21,9 +21,8 @@ namespace app
             rootNode.RightNode.RightNode = new Tree.Node(15);
 
             var binaryTree = new BinaryTree(rootNode);
-            var binarySearchTree = new BinarySearchTree(binaryTree);
-
-            Console.WriteLine(binarySearchTree.isBST());
+            var fullBinaryTree = new FullBinaryTree(binaryTree);
+            Console.WriteLine(fullBinaryTree.isFBT(binaryTree.rootNode));
 
         }
     }
