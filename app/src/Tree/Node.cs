@@ -2,12 +2,12 @@
 
 public class Node
 {
-    private int value;
+    public int Value;
     public Node? LeftNode;
     public Node? RightNode;
 
     public Node(int value)
     {
-        this.value = value;
+        this.Value = value;
     }
 }

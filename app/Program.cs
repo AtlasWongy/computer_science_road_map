@@ -1,5 +1,6 @@
 ﻿using System;
 using app.LinkedList;
+using app.Tree;
 
 namespace app
 {
@@ -7,7 +8,23 @@ namespace app
     {
         private static void Main()
         {
-            var linkedList = new LinkedList.LinkedList(new Node(4));
+            var rootNode = new Tree.Node(7)
+            {
+                LeftNode = new Tree.Node(4),
+                RightNode = new Tree.Node(11)
+            };
+
+            rootNode.LeftNode.LeftNode = new Tree.Node(2);
+            rootNode.LeftNode.RightNode = new Tree.Node(5);
+
+            rootNode.RightNode.LeftNode = new Tree.Node(10);
+            rootNode.RightNode.RightNode = new Tree.Node(15);
+
+            var binaryTree = new BinaryTree(rootNode);
+            var binarySearchTree = new BinarySearchTree(binaryTree);
+
+            Console.WriteLine(binarySearchTree.isBST());
+
         }
     }
 }
