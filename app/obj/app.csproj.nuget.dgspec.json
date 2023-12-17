@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atlas\\Documents\\computer_science_road_map\\app\\app.csproj": {}
+    "D:\\Code\\computer_science_road_map\\app\\app.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atlas\\Documents\\computer_science_road_map\\app\\app.csproj": {
+    "D:\\Code\\computer_science_road_map\\app\\app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atlas\\Documents\\computer_science_road_map\\app\\app.csproj",
+        "projectUniqueName": "D:\\Code\\computer_science_road_map\\app\\app.csproj",
         "projectName": "app",
-        "projectPath": "C:\\Users\\atlas\\Documents\\computer_science_road_map\\app\\app.csproj",
+        "projectPath": "D:\\Code\\computer_science_road_map\\app\\app.csproj",
         "packagesPath": "C:\\Users\\atlas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atlas\\Documents\\computer_science_road_map\\app\\obj\\",
+        "outputPath": "D:\\Code\\computer_science_road_map\\app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atlas\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.417\\RuntimeIdentifierGraph.json"
         }
       }
     }

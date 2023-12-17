@@ -1,9 +1,13 @@
 ﻿using System;
+using app.LinkedList;
 
-class Program
+namespace app
 {
-    static void Main()
+    internal static class Program
     {
-        
+        private static void Main()
+        {
+            var linkedList = new LinkedList.LinkedList(new Node(4));
+        }
     }
 }

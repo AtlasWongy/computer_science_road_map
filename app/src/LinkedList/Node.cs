@@ -1,7 +1,11 @@
-class Node {
-    public int data;
-    public Node? next;
-    public Node (int data) {
-        this.data = data;
+namespace app.LinkedList
+{
+    class Node {
+        public int data;
+        public Node? next;
+        public Node (int data) {
+            this.data = data;
+        }
     }
 }
+
